@@ -64,7 +64,7 @@ let pro = {
    "Teleportation",
    "Interdimensional travel"
 ]};
-console.log(profs.push(pro));
+console.log(profs.push("pro",pro));
 console.log("cours",JSON.stringify(cours));
 console.log("nou",JSON.stringify(nou));
 console.log('hello');
