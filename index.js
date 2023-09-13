@@ -14,7 +14,9 @@ database.profs = [];
 cours = database.cours = [];
 profs  = database.profs = []; 
 
-cours.push({
+cours.push(
+ 
+ {
  "squadName": "Super hero squad",
  "homeTown": "Metro City",
  "formed": 2016,
@@ -51,6 +53,18 @@ cours.push({
    }
  ]
 });
+let pro = {
+ "name": "Eternal Flame",
+ "age": 1000000,
+ "secretIdentity": "Unknown",
+ "powers": [
+   "Immortality",
+   "Heat Immunity",
+   "Inferno",
+   "Teleportation",
+   "Interdimensional travel"
+]};
+console.log(profs.push(pro));
 console.log("cours",JSON.stringify(cours));
 console.log("nou",JSON.stringify(nou));
 console.log('hello');
